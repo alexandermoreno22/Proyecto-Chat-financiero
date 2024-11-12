@@ -1,0 +1,24 @@
+
+/* Barra lateral izquierda */
+.sidebar {
+    width: 350px;
+    height: calc(100vh - 100px); /* Altura ajustada para el header */
+    background-color: #1e1e1e;
+    padding: 20px;
+    box-shadow: 4px 0 10px rgba(0, 0, 0, 0.3);
+    overflow-y: auto;
+}
+
+/* Contenedores de información */
+.info-container {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #2b2b2b;
+    border-radius: 8px;
+}
+
+.info-container h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #ffffff;
+}

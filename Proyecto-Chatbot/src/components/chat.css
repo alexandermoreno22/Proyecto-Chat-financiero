@@ -1,0 +1,82 @@
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header fijo */
+.main-header {
+    width: 100%;
+    padding: 15px;
+    background-color: #272727;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Contenido del header */
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.main-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.site-title {
+    font-size: 24px;
+    color: #e0e0e0;
+}
+
+/* Ajustes para el contenido del chat */
+.chat-container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #121212;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilo para el iframe */
+.chat-iframe {
+    width: 100%;
+    height: 730px;
+    width: 750px;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.chat-iframe:hover {
+    box-shadow: 0 8px 20px rgba(255, 255, 255, 0.1);
+}
+
+.main-content {
+    display: flex;
+    margin-top: 80px; /* Espacio para el header */
+}
+
+/* Ajustes para el contenedor del chat */
+.chat-container {
+    flex: 1;
+    margin-left: 250px; /* Espacio para el sidebar */
+}
