@@ -6,7 +6,6 @@ const Sidebar = () => {
   return (
 <div class="sidebar">
     <Noticias/>
-
 </div>
   );
 };

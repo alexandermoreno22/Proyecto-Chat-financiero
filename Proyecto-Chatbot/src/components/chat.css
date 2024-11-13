@@ -1,4 +1,4 @@
-/* Reset de estilos básicos */
+
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +11,6 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Header fijo */
 .main-header {
     width: 100%;
     padding: 15px;
@@ -26,7 +25,6 @@ body {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
-/* Contenido del header */
 .header-content {
     display: flex;
     align-items: center;
@@ -44,7 +42,6 @@ body {
     color: #e0e0e0;
 }
 
-/* Ajustes para el contenido del chat */
 .chat-container {
     margin: 0 auto;
     display: flex;
@@ -56,11 +53,10 @@ body {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
 }
 
-/* Estilo para el iframe */
 .chat-iframe {
     width: 100%;
-    height: 730px;
-    width: 750px;
+    height: calc(90vh - 100px);
+    width: 120vh;
     border: none;
     border-radius: 10px;
     overflow: hidden;
@@ -72,11 +68,10 @@ body {
 
 .main-content {
     display: flex;
-    margin-top: 80px; /* Espacio para el header */
+    margin-top: 80px; 
 }
 
-/* Ajustes para el contenedor del chat */
 .chat-container {
     flex: 1;
-    margin-left: 250px; /* Espacio para el sidebar */
+    margin-left: 250px; 
 }
